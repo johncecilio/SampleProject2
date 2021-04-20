@@ -12,10 +12,10 @@ pipeline {
                 sh '${WORKSPACE}/Build.sh'
             }
         }
-		stage('Deploy'){
+	/*	stage('Deploy'){
             steps {
                 sh '${WORKSPACE}/Deploy.sh'
             }
-        }
+        }*/
     }
 }
